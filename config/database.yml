@@ -1,0 +1,21 @@
+development:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: durga_trading
+  pool:     5
+  username: ibms
+  password: ibms
+  hostname: localhost
+  template: template0
+
+test:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: durga_trading
+  pool:     5
+  username: ibms
+  password: ibms
+  hostname: localhost
+  template: template0
